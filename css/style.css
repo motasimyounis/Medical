@@ -4,6 +4,14 @@
 *{
     direction: rtl;
 }
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Cairo", sans-serif;
+    overflow-x: hidden;
+}
 
 :root{
 	--bg-primary:#0e1a60;
