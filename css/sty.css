@@ -12,6 +12,23 @@
     --main-padding-bottom: 100px;
     --section-background: #ececec;
   }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
   .span{
     color: #000000cd;
     font-weight: bold;
@@ -92,10 +109,28 @@
   @media (max-width: 767px) {
     .header .main-nav > li > a {
       padding: 10px;
-      font-size: 14px;
+      padding-left:15px ;
+      font-size: 13px;
       height: 40px;
     }
   }
+  @media (max-width: 991px) {
+    .header .main-nav > li > a {
+      padding: 10px;
+      padding-left:15px ;
+      font-size: 13px;
+      height: 40px;
+    }
+  }
+  @media (max-width: 567px) {
+    .header .main-nav > li > a {
+      padding: 10px;
+      padding-left:15px ;
+      font-size: 13px;
+      height: 40px;
+    }
+  }
+
   .header .main-nav > li > a::before {
     content: "";
     position: absolute;

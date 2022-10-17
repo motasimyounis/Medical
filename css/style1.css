@@ -37,7 +37,24 @@ img .person {
   padding: 0 3rem;
   z-index: 10;
 }
-
+@media (max-width: 767px) {
+  .showcase-area .container {
+   align-items: center;
+   text-align: center;
+  }
+}
+@media (max-width: 567px) {
+  .showcase-area .container {
+   align-items: center;
+   text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .showcase-area .container {
+   align-items: center;
+   text-align: center;
+  }
+}
 
 .overlay {
   display: none;
