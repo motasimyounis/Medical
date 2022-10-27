@@ -21,11 +21,11 @@ li{
 	margin: 10px;
 }
 .download{
-	width: 200px;
+	width: 190px;
 	height: 75px;
-	background: #000;
+	background: black;
 	float: left;
-	border-radius: 4px;
+	border-radius: 10px;
 	position: relative;
 	color: #fff;
 	cursor: pointer;
@@ -36,7 +36,7 @@ li{
 	color: #fff;
 	position: absolute;
 	top: 50%;
-	left: 15%;
+	left: 20%;
 	transform: translate(-50%, -50%);
 }
 .p1, .p2{
